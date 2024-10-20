@@ -11,8 +11,8 @@
           data-nimg="1"
           class="rounded-full border-2 border-geist"
           style="color: transparent"
-          srcset="./public/profile-pic.jpg"
-          src="./public/profile-pic.jpg"
+          srcset="/public/profile-pic.jpg"
+          src="/public/profile-pic.jpg"
         />
         <div class="flex items-center gap-2 text-[#EDEDED]">
           <span class="size-2 relative flex">
@@ -151,31 +151,32 @@
             data-radix-aspect-ratio-wrapper=""
           >
             <div
-              class="bg-[#000000]"
+              class="flex items-center justify-center bg-[#000000]"
               style="position: absolute; top: 0; right: 0; bottom: 0; left: 0"
             >
               <img
-                alt="devflow Project"
+                alt="trello clone Project"
                 fetchpriority="high"
-                width="525"
-                height="420"
+                width="450"
+                height="500"
                 decoding="async"
                 data-nimg="1"
-                class="scale-110"
+                class="scale-110 rounded-md"
                 style="color: transparent"
-                srcset=""
-                src=""
+                srcset="/assets/imgs/bello-tracker-app.png"
+                src="/assets/imgs/bello-tracker-app.png"
               />
             </div>
           </div>
         </div>
         <section class="project-link-content">
           <div class="space-y-2">
-            <p class="text-lg font-medium text-[#EDEDED]">DevFlow</p>
+            <p class="text-lg font-medium text-[#EDEDED]">Trello Clone</p>
             <p class="text-pretty text-base text-geist">
-              Modern StackOverflow clone called DevOverflow, which includes
-              advanced features like a global data fetching, AI-generated
-              answers, and more
+              A Trello clone is a task management tool that uses boards, lists,
+              and cards for organizing workflows. It supports features like
+              drag-and-drop, task prioritization, and user assignments for
+              seamless collaboration.
             </p>
           </div>
           <div class="flex items-center justify-between">
@@ -234,60 +235,26 @@
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
-                <title>TypeScript</title>
-                <path
-                  d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"
-                ></path>
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="18"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
                 <title>Tailwind CSS</title>
                 <path
                   d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
                 ></path>
               </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="18"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <title>MongoDB</title>
-                <path
-                  d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"
-                ></path>
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="18"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <title>OpenAI</title>
-                <path
-                  d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"
-                ></path>
-              </svg>
             </div>
-            <svg
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              fill="currentColor"
-              class="remixicon text-geist duration-300 ease-out group-hover:rotate-45 group-hover:text-[#FFF]"
-            >
-              <path
-                d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
-              ></path>
-            </svg>
+            <a target="_blank" href="https://bello-tracker-app.netlify.app/">
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="remixicon text-geist duration-300 ease-out group-hover:rotate-45 group-hover:text-[#FFF]"
+              >
+                <path
+                  d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
+                ></path>
+              </svg>
+            </a>
           </div>
         </section>
       </main>
@@ -360,7 +327,7 @@
         <a
           target="_blank"
           class="undefined group space-y-1 rounded-lg border border-[#2E2E2E] bg-[#0A0A0A] p-2 px-3 text-sm text-geist duration-300 ease-in-out hover:border-geist hover:bg-[#1A1A1A] max-sm:col-span-2"
-          href="https://godly.website/"
+          href="https://react.dev/"
           ><p class="text-lg font-medium text-[#EDEDED]">React.js</p>
           <div
             class="text-pretty flex w-full items-center justify-between gap-2"
@@ -443,7 +410,7 @@
         ><a
           target="_blank"
           class="undefined group space-y-1 rounded-lg border border-[#2E2E2E] bg-[#0A0A0A] p-2 px-3 text-sm text-geist duration-300 ease-in-out hover:border-geist hover:bg-[#1A1A1A] max-sm:col-span-2"
-          href="https://github.com/viasaud"
+          href="https://github.com/mubeejahir"
           ><p class="text-lg font-medium text-[#EDEDED]">GitHub</p>
           <div
             class="text-pretty flex w-full items-center justify-between gap-2"
@@ -568,7 +535,7 @@ export default {
 @keyframes fadeUp {
   to {
     opacity: 1;
-    transform: translateY(0);}
+    transform: translateY(0);
+  }
 }
-
 </style>
